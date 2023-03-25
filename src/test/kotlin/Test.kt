@@ -14,6 +14,7 @@ class Test: ApiTest() {
                 inPath("$.a").isIntegralNumber.isEqualTo(3)
                 inPath("$.ids[1]").isIntegralNumber.isEqualTo(300)
                 inPath("$.ids").isArray.isEqualTo(arrayOf(100, 200, 300))
+                isMatchWithJsonSchema("test.schema.json")
             }
         }
 

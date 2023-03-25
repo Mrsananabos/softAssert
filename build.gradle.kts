@@ -17,6 +17,8 @@ dependencies {
     implementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation("org.slf4j:slf4j-api:1.7.25")
+    implementation("commons-io:commons-io:2.6")
+    implementation("com.github.erosb:everit-json-schema:1.14.1")
 
     api("org.json:json:20220320")
 
